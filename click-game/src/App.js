@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer"; 
 import Jumbo from "./components/Jumbo";
 import friends from "./friends.json";
 import "./App.css";
@@ -23,12 +24,11 @@ class App extends Component {
   render() {
     return (
       <div>
-      
         <Nav>Friends List</Nav>
         <Jumbo />
         <Wrapper>
         {this.state.friends.map(friend => (
-          <FriendCard
+          <Card
             removeFriend={this.removeFriend}
             id={friend.id}
             key={friend.id}
@@ -39,6 +39,7 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      <Footer></Footer>
       </div>
     );
   }
