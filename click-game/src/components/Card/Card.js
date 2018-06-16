@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = props => (
   <div className="card">
     <div className="img-container" >
-      <img alt={props.name} src={props.image} onClick={() => props.removeFriend(props.id)}/>
+      <img alt={props.name} src={props.image} onClick={() => props.playGame(props.id)}/>
     </div>
  
   </div>

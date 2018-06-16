@@ -4,21 +4,31 @@ import Wrapper from "./components/Wrapper";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer"; 
 import Jumbo from "./components/Jumbo";
-import friends from "./friends.json";
+import puppies from "./puppies.json";
 import "./App.css";
+
+let clickedItems = [];
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    puppies
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+  playGame = id => {
+   if (!clickedItems.includes(id)) {
+    clickedItems.push(id);
+    console.log(clickedItems);
+  //  randomizePics();
+   } else {
+    console.log("LOOSE");
+   }
+   
   };
+
+ // randomizePics = id => {
+  //  console.log(true);
+ // }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
@@ -27,15 +37,16 @@ class App extends Component {
         <Nav>Friends List</Nav>
         <Jumbo />
         <Wrapper>
-        {this.state.friends.map(friend => (
+        {this.state.puppies.map(puppies => (
+      
           <Card
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+            playGame={this.playGame}
+            id={puppies.id}
+            key={puppies.id}
+            name={puppies.name}
+            image={puppies.image}
+            occupation={puppies.occupation}
+            location={puppies.location}
           />
         ))}
       </Wrapper>
