@@ -16,14 +16,14 @@
   {
     "id": 3,
     "name": "Squidward",
-    "image": "../images/puppy3.jpg",
+    "image": "../images/puppy3-1.jpg",
     "occupation": "Cashier",
     "location": "An Easter Island Head"
   },
   {
     "id": 4,
     "name": "Dexter",
-    "image": "../images/puppy4.jpg",
+    "image": "../images/puppy4-1.jpg",
     "occupation": "Boy Genius",
     "location": "A Secret Laboratory"
   },
