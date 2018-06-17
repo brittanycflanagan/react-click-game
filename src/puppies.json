@@ -1,86 +1,62 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "../images/puppy1.jpg",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Puppy 1",
+    "image": "../images/puppy1.jpg"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "../images/puppy2.jpg",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Puppy 2",
+    "image": "../images/puppy2.jpg"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "../images/puppy3-1.jpg",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Puppy 3",
+    "image": "../images/puppy3-1.jpg"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "../images/puppy4-1.jpg",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Puppy 4",
+    "image": "../images/puppy4-1.jpg"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "../images/puppy5.jpg",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Puppy 5",
+    "image": "../images/puppy5.jpg"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "../images/puppy6.jpg",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Puppy 6",
+    "image": "../images/puppy6.jpg"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "../images/puppy7.jpg",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Puppy 7",
+    "image": "../images/puppy7.jpg"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "../images/puppy8.jpg",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Puppy 8",
+    "image": "../images/puppy8.jpg"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "../images/puppy9.jpg",
-    "occupation": "Adventurer",
-    "location": "California"
+    "name": "Puppy 9",
+    "image": "../images/puppy9.jpg"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "../images/puppy10.jpg",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "name": "Puppy 10",
+    "image": "../images/puppy10.jpg"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "../images/puppy11.jpg",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "name": "Puppy 11",
+    "image": "../images/puppy11.jpg"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "../images/puppy12.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "Puppy 12",
+    "image": "../images/puppy12.jpg"
   }
 ]

@@ -6,7 +6,6 @@ const Card = props => (
     <div className="img-container" >
       <img alt={props.name} src={props.image} onClick={() => props.playGame(props.id)}/>
     </div>
- 
   </div>
 );
 

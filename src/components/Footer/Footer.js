@@ -1,16 +1,11 @@
 import React from "react";
 import "./Footer.css";
 
-
 const Footer = props => (
 <footer className="footer">
-    <span>Brittany Flanagan 2017</span>
+    <span>{props.children}</span>
   </footer>
 );
-
-
-
-
 
 
 export default Footer;
